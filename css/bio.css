@@ -1,0 +1,68 @@
+@font-face{
+    font-family: "Karla";
+    src: url(../fonts/Karla-Light.ttf);
+    
+}
+
+
+.header{
+    background-color: chartreuse;
+    margin: 20px;
+    font-family: "Karla";
+    font-size: 40px;
+    text-align: left;
+    padding-left: 20px;
+  
+}
+.contenedor{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 400px;
+    grid-gap: 20px;
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    
+}
+
+.contenedor > div{
+    display: block;
+    padding: 0;
+    color: black;
+    background: white;
+    font-family: "Karla";
+    src: url(../fonts/Karla-Light.ttf);
+    
+
+}
+
+.contenedor .image{
+    overflow: hidden;
+    max-width: 100%;
+
+}
+
+.contenedor .texto_bio{
+    background: white;
+    text-align: justify;
+    line-height: 18px;
+    font-size: 14px;
+    
+}
+.footer{
+    color: black;
+    font-family:"Karla";
+    src: url(../fonts/Karla-Light.ttf);
+    font-size: 8pt;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+}
+  
+.pFooter{
+    color: chartreuse;
+}

@@ -1,0 +1,37 @@
+@font-face{
+    font-family: "Karla";
+    src: url(../fonts/Karla-Light.ttf);
+    
+}
+
+
+.header{
+    background-color: chartreuse;
+    margin: 20px;
+    font-family: "Karla";
+    font-size: 40px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.textoContact{
+    color: black;
+    font-family: "Karla";
+    src: url(../fonts/Karla-Light.ttf);
+    font-size: 12px;
+    padding-left: 20px;
+}
+.footer{
+    color: black;
+    font-family: "Karla";
+    src: url(../fonts/Karla-Light.ttf);
+    font-size: 8pt;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+}
+  
+  .pFooter{
+    color: chartreuse;
+}
